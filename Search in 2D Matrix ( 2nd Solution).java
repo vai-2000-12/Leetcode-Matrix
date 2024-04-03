@@ -3,10 +3,10 @@ class Solution {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0)
         return false;
 
-    int rows = matrix.length;
-    int cols = matrix[0].length;
-    int start = 0;
-    int end = rows * cols - 1;
+            int rows = matrix.length;
+            int cols = matrix[0].length;
+            int start = 0;
+            int end = rows * cols - 1;
 
     while (start <= end) {
         int mid = start + (end - start) / 2;
@@ -21,7 +21,5 @@ class Solution {
         }
     }
     return false;
-}
-
     }
 }
