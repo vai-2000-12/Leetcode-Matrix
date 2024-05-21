@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     private final int[] DirX = { 1, -1, 0, 0};
     private final int[] DirY = {0, 0, 1, -1};
